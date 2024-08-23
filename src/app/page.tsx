@@ -1,5 +1,6 @@
 import FeaturedSection from "@/components/FeaturedSection";
 import HeroSection from "@/components/HeroSection";
+import Testimonial from "@/components/Testimonial";
 import { WhyUs } from "@/components/WhyUs";
 import Image from "next/image";
 
@@ -9,6 +10,7 @@ export default function Home() {
       <HeroSection />
       <FeaturedSection />
       <WhyUs />
+      <Testimonial/>
     </main>
   );
 }
